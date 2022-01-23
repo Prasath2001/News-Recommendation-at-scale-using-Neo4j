@@ -1,6 +1,11 @@
 # News-Recommendation-at-scale-using-Neo4j
 MIcrosoft News Dataset (MIND) is a sample of 1 million anonymized users and their click behaviors collected from the Microsoft News website. It includes about 15M impressions logs for about 160K English News articles to quickly predict similar news based on user preferences and enable rank-ordered recommendation queries personalized to each user by leveraging Collaborative Filtering and KNN.
 
+You can download the MIND dataset from https://msnews.github.io/. Download the training and validation set of MIND Large dataset and store it in the same directory as the 2 notebooks.
+
+1. Data_Preprocessing_and_Loading.ipynb notebook preprocess data and models it as a graph and loads it in Neo4j DBMS.
+2. News_Recommendation_Engine.ipynb notebook profiles the graph, Scaled Collaborative Filtering (Item-based) using Neo4j GDS with FastRP embeddings and KNN.
+
 
 ## Dependencies
 
