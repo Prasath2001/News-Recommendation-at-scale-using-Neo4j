@@ -4,7 +4,7 @@ MIcrosoft News Dataset (MIND) is a sample of 1 million anonymized users and thei
 
 ## Dependencies
 
-1. Need Neo4j Desktop 1.4.12 installed with PC. (16GB of Ram is required for Neo4j to do in-memory graph computations)
+1. Need Neo4j Desktop 1.4.12 installed with PC. (16GB of Ram is required by Neo4j to do in-memory graph computations)
 2. Add APOC and Graph Data Science Plugins while creating DBMS in Neo4j Desktop.
 3. Need Python 3.5.x or more.
 4. pip install neo4j (make sure you uninstall neo4j library if already exists in your site-packages in python and re-install it).
