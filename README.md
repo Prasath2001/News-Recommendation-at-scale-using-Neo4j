@@ -1,5 +1,5 @@
 # News-Recommendation-at-scale-using-Neo4j
-MIcrosoft News Dataset (MIND) [1] is a sample of 1 million anonymized users and their click behaviors collected from the Microsoft News website. It includes about 15M impressions logs for about 160K English News articles to quickly predict similar news based on user preferences and enable rank-ordered recommendation queries personalized to each user by leveraging Collaborative Filtering and KNN.
+MIcrosoft News Dataset (MIND) [[1]](#1) is a sample of 1 million anonymized users and their click behaviors collected from the Microsoft News website. It includes about 15M impressions logs for about 160K English News articles to quickly predict similar news based on user preferences and enable rank-ordered recommendation queries personalized to each user by leveraging Collaborative Filtering and KNN.
 
 You can download the MIND dataset from https://msnews.github.io/. Download the training and validation set of MIND Large dataset and store it in the same directory as the 2 notebooks.
 
@@ -16,6 +16,6 @@ You can download the MIND dataset from https://msnews.github.io/. Download the t
 
 ### Make sure to close the driver at the end of the session.
 
-##Citations
+## Citations
 
-[1] Fangzhao Wu, Ying Qiao, Jiun-Hung Chen, Chuhan Wu, Tao Qi, Jianxun Lian, Danyang Liu, Xing Xie, Jianfeng Gao, Winnie Wu and Ming Zhou. MIND: A Large-scale Dataset for News Recommendation. ACL 2020.
+<a id="1">[1]</a> Fangzhao Wu, Ying Qiao, Jiun-Hung Chen, Chuhan Wu, Tao Qi, Jianxun Lian, Danyang Liu, Xing Xie, Jianfeng Gao, Winnie Wu and Ming Zhou. MIND: A Large-scale Dataset for News Recommendation. ACL 2020.
