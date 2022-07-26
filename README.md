@@ -3,8 +3,8 @@ MIcrosoft News Dataset (MIND) [[1]](#1) is a sample of 1 million anonymized user
 
 You can download the MIND dataset and read the paper from [MIND website](https://msnews.github.io/). Download the training and validation set of MIND Large dataset and store it in the same directory as the 2 notebooks.
 
-1. Data_Preprocessing_and_Loading.ipynb notebook preprocess data and models it as a graph and loads it in Neo4j DBMS.
-2. News_Recommendation_Engine.ipynb notebook profiles the graph, Scaled Collaborative Filtering (Item-based) using Neo4j GDS with FastRP embeddings and KNN.
+1. `Data_Preprocessing_and_Loading.ipynb` notebook preprocess data and models it as a graph and loads it in Neo4j DBMS.
+2. `News_Recommendation_Engine.ipynb` notebook profiles the graph, Scaled Collaborative Filtering (Item-based) using Neo4j GDS with FastRP embeddings and KNN.
 
 
 ## Dependencies
